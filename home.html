@@ -1,0 +1,123 @@
+<html>
+    <head>
+        
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+      <style media="screen">
+        *,
+  *:before,
+  *:after{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  body{
+      font-family: 'Artifika';
+      font-size: 22px;
+      background-color: #080710;
+      background-repeat: no-repeat;
+  }
+  .background{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-repeat: no-repeat;
+
+  }
+  a {
+      line-height: 3em;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.4em;
+      color: rgba(#FFF, 0.35);
+      display: block;
+      transition: all ease-out 300ms;
+    }
+    .background img{
+        width: 1530px;
+        height: 700px;
+    }
+  form{
+      height: 500px;
+      width: 400px;
+      background-color: rgba(255,255,255,0.13);
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255,255,255,0.1);
+      box-shadow: 0 0 40px rgba(8,7,16,0.6);
+      padding: 50px 35px;
+  }
+  form *{
+      font-family: 'Artifika';
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      outline: none;
+      border: none;
+  }
+  form h3{
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 42px;
+      text-align: center;
+  }
+  button{
+      margin-top: 30px;
+      width: 100%;
+      background-color: #ffffff;
+      color: #080710;
+      padding: 15px 0;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+        .column {
+        float: left;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+        }
+        .left {
+            width: 25%;
+        }
+
+        .right {
+            width: 75%;
+        }
+        /* Clear floats after the columns */
+        .row {
+            display: flex;
+        }
+        .but{
+            height: 100px;
+            width: 740px;
+        }
+  </style>
+  </head>
+<body>
+  <div class="background">
+    <img src="Home.jpg" alt="Home">
+  </div>
+  <div >
+    <form>
+        <center>
+            <h2>Menu Page</h1>
+            <div class="row">
+                <div class="column">
+                    <br>
+                    <br>
+            <center><a href="Billing.php">Billing</a>
+                <a href="Customer.php">Customer</a>
+                <a href="Product.php">Product</a></center>
+        
+                </div>
+                
+            </div>
+        </center>
+    </form>
+  </div>
+</body>
+</html>
